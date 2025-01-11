@@ -1,0 +1,29 @@
+# Exclude the wp-config.php file
+wp-config.php
+
+# Exclude database files
+*.sql
+*.sqlite
+*.db
+
+# Exclude personal or hidden configuration files
+.env
+*.log
+
+# Exclude OS-generated files
+.DS_Store
+Thumbs.db
+
+# Exclude WordPress temporary or uploaded files
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+wp-content/debug.log
+
+# Configuration
+wp-config.php
+
+
+# Exclude default folders for Node.js and Composer
+node_modules/
+vendor/
